@@ -1,0 +1,18 @@
+{
+  "name": "problem1",
+  "version": "1.0.0",
+  "description": "solution to problem 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ariel Alvarado",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "consolidate": "^0.14.0",
+    "express": "^4.13.4",
+    "mongodb": "^2.1.7",
+    "nunjucks": "^2.4.1"
+  }
+}

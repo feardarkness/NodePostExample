@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form to post movies</title>
+</head>
+<body>
+<form action="saveMovie" method="POST">
+	<div>
+		<label for="title">Title: <input type="text" name="title"></input></label>
+	</div>
+	<div>
+		<label for="year">Year: <input type="text" name="year"></input></label>
+	</div>
+	<div>
+		<label for="imdb">Imdb: <input type="text" name="imdb"></input></label>
+	</div>
+	<button type="submit">Submit</button>
+	<div>{{err}}</div>
+</form>
+</body>
+</html>
